@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "../styles/Home.module.css";
-
 import CadetIcon from "../../public/icons/CadetIcon";
 import CompanyIcon from "../../public/icons/CompanyIcon";
 import UserIcon from "../../public/icons/UserIcon";

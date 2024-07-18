@@ -12,10 +12,10 @@ const ArrowDown = () => (
     <path
       d="M25.9201 14.95L19.4001 21.47C18.6301 22.24 17.3701 22.24 16.6001 21.47L10.0801 14.95"
       stroke="#134E70"
-      stroke-width="1.5"
-      stroke-miterlimit="10"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );

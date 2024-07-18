@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 
-export const Header = () => {
+export const Header = ({ onLogin }) => {
   return (
     <div className={styles.header}>
       <img src="./images/layer2.png" alt="crewin" />
@@ -16,7 +16,7 @@ export const Header = () => {
           <img src="../images/usa.png" alt="" />
         </div>
         <div className={styles.separator}></div>
-        <button>Login</button>
+        <button onClick={onLogin}>Login</button>
       </div>
     </div>
   );

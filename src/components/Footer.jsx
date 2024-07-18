@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Footer.module.css";
 
-const Footer = () => {
+const Footer = ({ onLogin }) => {
   return (
     <>
       <div className={styles.footerUp}>
@@ -29,7 +29,7 @@ const Footer = () => {
             MARITIME WORKFORCE PLATFORM THAT MEETS <br />
             SHEFARERS & SEAFARERS WITH SHIPPING COMPANIES
           </p>
-          <button>Login</button>
+          <button onClick={onLogin}>Login</button>
         </div>
       </div>
 

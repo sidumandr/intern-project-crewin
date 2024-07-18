@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container {
+  width: 795px;
+  height: 723px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000;
+  margin-top: 50px;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+  width: 44%;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.main img {
+  width: 100%;
+}
+
+.main h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main h3 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 166.4%; /* 33.28px */
+}
+
+.main p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.4%;
+}
+
+.main button {
+  margin-top: 10px;
+  width: 145px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  border: 1px solid #134e70;
+  background: #134e70;
+  color: #ffffff;
+}
+
+.main button:hover {
+  color: #ffffff;
+  background-color: #274a5b;
+}
+
+.download {
+  width: 100%;
+  height: 148px;
+  flex-shrink: 0;
+  background: #242424;
+  margin-top: 40px;
+}
+
+.download h3 {
+  color: #e7e7e7;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  top: 25px;
+}
+
+.buttons {
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.buttons button {
+  border-radius: 17px;
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.buttons button img {
+  width: 14px;
+  height: 16px;
+  flex-shrink: 0;
+  position: relative;
+  right: 10px;
+  top: 2px;
+}
